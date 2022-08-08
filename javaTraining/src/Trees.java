@@ -5,7 +5,7 @@ public class Trees {
         int rowSize=sc.nextInt();
         int columnSize=sc.nextInt();
         int treeNumber=sc.nextInt();
-        if(treeNumber%rowSize==1 || treeNumber%columnSize==0 || treeNumber<rowSize || treeNumber<columnSize){
+        if(treeNumber%columnSize==1 || treeNumber%columnSize==0 || treeNumber<rowSize){
             System.out.println("Yes");
         }
         else
